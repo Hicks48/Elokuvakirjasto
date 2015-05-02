@@ -1,0 +1,15 @@
+<form name="addMovieForm">
+  <label>Nimi:</label>
+  <input type="text" name="movie.movieName" ng-model="movie.movieName"/><br/>
+
+  <label>Ohjaaja:</label>
+  <input type="text" name="movie.director" ng-model="movie.director"/><br/>
+
+  <label>Julkaisuvuosi:</label>
+  <input type="text" name="movie.releaseYear" ng-model="movie.releaseYear"/><br/>
+
+  <label>Kuvaus:</label>
+  <input type="text" name="movie.description" ng-model="movie.description"/><br/>
+
+  <input type="submit" value="Luo elokuva" ng-click="addMovie()"/>
+</form>

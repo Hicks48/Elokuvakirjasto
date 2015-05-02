@@ -1,0 +1,4 @@
+<h3>Elokuvat:</h3>
+<ul>
+  <li ng-repeat="movie in movies"><a ng-href="#/movies/{{movie.$id}}">{{movie.movieName}}</a><input type="button" value="poista" ng-click="removeMovie(movie)"/></li>
+</ul>
